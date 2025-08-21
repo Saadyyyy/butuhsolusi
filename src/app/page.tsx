@@ -7,12 +7,26 @@ export default function Home() {
         </h1>
         
         <div className="space-y-4 mb-8">
-          <div className="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-blue-400">
-            butuhsolusi.com
+          <div className="text-2xl md:text-3xl font-semibold">
+            <a 
+              href="https://butuhsolusi.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+            >
+              butuhsolusi.com
+            </a>
           </div>
           <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300">+</div>
-          <div className="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-blue-400">
-            butuhsolusi.id
+          <div className="text-2xl md:text-3xl font-semibold">
+            <a 
+              href="https://butuhsolusi.id" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+            >
+              butuhsolusi.id
+            </a>
           </div>
         </div>
         
