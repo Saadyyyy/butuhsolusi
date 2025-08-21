@@ -38,6 +38,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="ml-2 text-blue-600 dark:text-blue-400 hover:underline"
           >
+          <br></br>
             https://www.instagram.com/laode_saady/
           </a>
         </div>
